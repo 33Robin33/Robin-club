@@ -2,5 +2,5 @@
 
 
 def total(values):
-    """Return the sum of an integer list (demo intentionally starts buggy)."""
-    return sum(values) if values else None
+    """Return the sum of an integer list, including zero for empty lists."""
+    return sum(values)
